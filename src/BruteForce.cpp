@@ -1,8 +1,7 @@
-#include "BruteForce.h"
-#include <iostream>
+#include "../include/BruteForce.h"
 
-BruteForce::BruteForce(const std::string& charset,
-                       const std::string& target,
+BruteForce::BruteForce(const string& charset,
+                       const string& target,
                        int maxLength)
     : charset(charset),
       target(target),
@@ -11,17 +10,14 @@ BruteForce::BruteForce(const std::string& charset,
       found(false) {}
 
 void BruteForce::run() {
-    std::string current;
+    string current;
     generate(current);
 }
 
-void BruteForce::generate(std::string& current) {
+void BruteForce::generate(string& current) {
     if (found) return;
+    if ((int)current.length() > maxLength) return;
 
-    // Jika panjang melebihi batas
-    if (current.length() > maxLength) return;
-
-    // Cek kecocokan
     if (!current.empty()) {
         attempts++;
         if (current == target) {
@@ -30,7 +26,6 @@ void BruteForce::generate(std::string& current) {
         }
     }
 
-    // Generate kombinasi berikutnya
     for (char c : charset) {
         current.push_back(c);
         generate(current);

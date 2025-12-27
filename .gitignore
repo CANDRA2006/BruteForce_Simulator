@@ -1,0 +1,24 @@
+# ===== Build output =====
+*.exe
+*.out
+*.o
+*.obj
+
+# ===== Output folders =====
+/output/
+/build/
+/bin/
+
+# ===== Compiler / Debug =====
+*.log
+*.tmp
+
+# ===== VS Code =====
+.vscode/
+
+# ===== OS files =====
+Thumbs.db
+.DS_Store
+
+# ===== MSYS2 =====
+*.stackdump
