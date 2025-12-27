@@ -147,7 +147,7 @@ This project is for educational purposes. Use responsibly and ethically.
 
 - [OWASP Password Guidelines](https://owasp.org/)
 - [NIST Password Standards](https://pages.nist.gov/800-63-3/)
-- Threat Model: See `docs/threat_model.md`
+- Threat Model: [Threat Model](docs/threat_model.md)
 
 ## 👨‍💻 Author
 Candra 
