@@ -156,4 +156,4 @@ Created for educational demonstration of brute force concepts and password secur
 
 ---
 
-**Remember**: Always use strong, unique passwords and enable two-factor authentication wherever possible!
+**Remember**: Always use strong, unique passwords and enable two-factor authentication wherever possible. 
