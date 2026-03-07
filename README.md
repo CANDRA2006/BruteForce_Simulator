@@ -152,8 +152,6 @@ This project is for educational purposes. Use responsibly and ethically.
 ## 👨‍💻 Author
 Candra 
 
-Created for educational demonstration of brute force concepts and password security awareness.
-
 ---
 
 **Remember**: Always use strong, unique passwords and enable two-factor authentication wherever possible. 
