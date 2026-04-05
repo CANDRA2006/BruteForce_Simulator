@@ -1,5 +1,5 @@
 #include "../include/BruteForce.h"
-
+ 
 BruteForce::BruteForce(const string& charset,
                        const string& target,
                        int maxLength)
